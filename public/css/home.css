@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C69468;
+}
+
+/* HEADER */
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        font-family: "Merriweather", serif;
+        display: flex;
+        flex-direction: column;
+        color: #7E393E;
+        margin: 3%;
+    }
+}
+
+nav img{
+    width: 40px;
+    margin: 5% 10%;
+}
+
+.section_nav{
+    display: none;
+}
+
+/* MAIN */
+
+main h4{
+    color: #9A554C;
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+}
+
+main p{
+    color: #C69468;
+    border: none;
+    border-radius: 0% 0% 3% 3%;
+    padding: 3%;
+    width: 80%;
+    background-color: #775635;
+    box-shadow: black 2px 2px 5px;
+    font-family:"Montserrat", sans-serif;
+    
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4{
+        margin: 3% 0% 3% 0%;
+    }
+    img{
+        width: 80%;
+        border: none;
+        border-radius: 3% 3% 0% 0%;
+        box-shadow: black 2px 2px 5px;
+    }
+}
+
+.soft_skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4{
+        margin: 3% 0% 3% 0%;
+    }
+}
+
+
+
+
+.my_work{
+    
+}
+
+/* FOOTER */
