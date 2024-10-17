@@ -35,20 +35,27 @@
         <!-- ABOUT ME -->
         <section class="about_me">
             <h4>About Me</h4>
-            <img src="../../public/img/IMG_20240919_131047_135-removebg-preview.png" alt="foto-de-perfil">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit nulla iste vero corporis laboriosam, molestiae dolorum distinctio hic officiis alias quis deleniti obcaecati at consequuntur voluptas doloribus ea deserunt.</p>
+            <article>
+                <img class="foto_perfil" src="../../public/img/IMG_20240919_131047_135-removebg-preview.png" alt="foto-de-perfil">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit nulla iste vero corporis laboriosam, molestiae dolorum distinctio hic officiis alias quis deleniti obcaecati at consequuntur voluptas doloribus ea deserunt.</p>
+            </article>
+            
         </section>
         <!-- SOFT SKILLS -->
         <section class="soft_skills">
             <h4>Soft Skills</h4>
-            <img src="" alt="palabras">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia dolorum laudantium culpa deserunt at error et architecto. Laborum et sit quisquam reprehenderit? Et expedita consequuntur quod voluptatum est beatae.</p>
+            <article>
+                <img src="../../public/img/responsabilidad__1_-removebg-preview.png" alt="palabras">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia dolorum laudantium culpa deserunt at error et architecto. Laborum et sit quisquam reprehenderit? Et expedita consequuntur quod voluptatum est beatae.</p>
+            </article>
         </section>
         <!-- HARD SKILLS -->
         <section class="hard_skills">
             <h4>Hard Skills</h4>
-            <img src="" alt="gráfico-circular">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis earum incidunt beatae laborum laudantium aut? Harum doloribus mollitia dolores quisquam consequuntur. Mollitia, blanditiis optio explicabo eum ab amet odio!</p>
+            <article>
+                <img src="../../public/img/hardSkills-removebg-preview (1).png" alt="gráfico-circular">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis earum incidunt beatae laborum laudantium aut? Harum doloribus mollitia dolores quisquam consequuntur. Mollitia, blanditiis optio explicabo eum ab amet odio!</p>
+            </article>
         </section>
         <!-- MY WORK -->
         <section class="my_work">
@@ -63,9 +70,9 @@
     <footer>
         <!-- CONTACT ME -->
         <section class="contact_me">
-            <h4>Contact Me!</h4>
+            <h4 class="contact_title">Contact Me!</h4>
             <form action="" method="get">
-                <input type="text" name="name" id="name" placeholder="Nombre y apellido">
+                <input class="nombre_apellido" type="text" name="name" id="name" placeholder="Nombre y apellido">
                 <select name="contacto_preferencia" id="contacto">
                     <option value="">Contacto de preferencia</option>
                     <option value="Correo">Correo</option>
@@ -73,7 +80,9 @@
                     <option value="Móvil">Móvil</option>
                     <option value="LinkedIn">LinkedIn</option>
                 </select>
+                <input class="contacto" type="text" placeholder="Contacto preferido">
                 <textarea name="texto_usuario" id="texto_usuario" rows="4" cols="15a" placeholder="¿Qué te motiva a que nos pongamos en contacto?"></textarea>
+                <input class="enviar_boton" type="button" value="Enviar">
             </form>
         </section>
     </footer>
